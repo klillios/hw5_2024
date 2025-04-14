@@ -120,6 +120,7 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
     
     body > header {
         position: sticky;
+        top: 0;
     }
    
 }
