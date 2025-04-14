@@ -42,7 +42,7 @@ Do not modify the list items or the links - modify the nav_links class to use fl
     flex-wrap: nowrap;
 }
 
-.nav_links a, .nav_links {
+.nav_links a, .nav_links a:visited{
     color: blue;
 }
 
