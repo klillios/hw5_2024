@@ -56,17 +56,28 @@ The required styling is the following: */
     width: 100%;
 }
 
-/* get rid of white*/
-.card {
-    border-radius: 50px 50px 0 0;
-    flex: 0 1 450px;
-}
 /*Edit the css for the card class to match our example. 
 Achieve this by using a flex-property to specify an initial “size” of 450px.  
 You need to think about this from a “flex” perspective and realize that flex-direction will affect the size of the elements.  
 You can see that in the mobile view they all have the same width. 
 
-Edit the css for the pricing class to match our example. 
+/* get rid of white corner in card*/
+.card {
+    border-radius: 50px 50px 0 0;
+    flex: 0 1 450px;
+}
+
+/*Edit the css for the pricing class to match our example. 
 You should use flex and the cards should be centered both horizontally and vertically.*/
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
