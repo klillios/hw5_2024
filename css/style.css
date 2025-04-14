@@ -115,6 +115,12 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
         flex-basis: 275px;
         height: auto;
     }
+
+     /* header stay remain visible at the top of the screen at all times */
+    
+    body > header {
+        position: sticky;
+    }
    
 }
 
