@@ -23,3 +23,13 @@ body {
     background-image: url('../images/concrete_seamless.png');
     background-color: #f1f1f1;
 }
+
+/* Edit the css for the header tag (all instances) to use flex to match our example.*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
