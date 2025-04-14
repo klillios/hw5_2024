@@ -1,6 +1,6 @@
 /*It should start at a width of 25px and grow to 475px.  It should also start with an opacity of 0 and end with an opacity of 1*/
 
-@keyframes logo_animation {
+@keyframes logoAnimation {
     0% {
         width: 25px; 
         opacity: 0;
