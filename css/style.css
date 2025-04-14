@@ -1,6 +1,6 @@
 /*It should start at a width of 25px and grow to 475px.  It should also start with an opacity of 0 and end with an opacity of 1*/
 
-@keyframes logoAnimation {
+@keyframes logo_animation {
     0% {
         width: 25px; 
         opacity: 0;
@@ -13,7 +13,7 @@
 
 /*The animation should take 5 seconds and only happen when the page is loaded*/
 #logo {
-    animation: logoAnimation 5s forwards;
+    animation: logo_animation 5s forwards;
 }
 
 /*Edit the body element to use the Poppins font (using Google fonts) with serif as a backup.  
