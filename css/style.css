@@ -1,0 +1,10 @@
+@keyframes logo_animation {
+    0% {
+        width: 25px; 
+        opacity: 0;
+    }
+    100% {
+        width: 475px; 
+        opacity: 1;
+    }
+}
