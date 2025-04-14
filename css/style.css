@@ -13,5 +13,5 @@
 
 /*The animation should take 5 seconds and only happen when the page is loaded*/
 #logo {
-    animation: logoAnimation 5 forwards;
+    animation: logoAnimation 5s forwards;
 }
