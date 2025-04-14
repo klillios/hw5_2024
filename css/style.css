@@ -85,6 +85,15 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
     width: 300px;
 }
 
+/* gallery use flex */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+
+
 
 
 
