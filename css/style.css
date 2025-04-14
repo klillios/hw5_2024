@@ -122,6 +122,21 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
         position: sticky;
         top: 0;
     }
+
+    /* no logo animation if reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    #logo {
+        animation: none;
+    }
+}
+
+@media print and (orientation: portrait){
+    /* Change body font to Arial with a backup value of  Helvetica */
+    /* and remove background image */
+    body {
+        font-family: Arial, Helvetica;
+        background-image: none;
+    }    
    
 }
 
