@@ -51,7 +51,7 @@ The required styling is the following: */
 .card > header {
     background: #288088;
     border: solid 2px #45ADAD;
-    padding: 20px 20px;
+    padding: 20px 0 20px;
     border-radius: 50px 50px 0 0;
     width: 100%;
 }
