@@ -137,8 +137,17 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
         font-family: Arial, Helvetica;
         background-image: none;
     }    
-   
 }
+
+ /* Nav elements and links evenly spaced in a row */
+    .nav {
+        width: 100%;
+        text-align: center;
+    }
+    .nav_links {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
 
