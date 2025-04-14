@@ -77,6 +77,13 @@ You should use flex and the cards should be centered both horizontally and verti
     align-items: center;
 }
 
+/*Style the images in the gallery class. 
+These elements will have a solid 10px border with a color of #50C7C7, 10px margin on all four sides and a width of 300px. */
+.gallery img {
+    border: solid 10px #50C7C7;
+    margin: 10px;
+    width: 300px;
+}
 
 
 
