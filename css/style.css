@@ -1,3 +1,5 @@
+/*It should start at a width of 25px and grow to 475px.  It should also start with an opacity of 0 and end with an opacity of 1*/
+
 @keyframes logo_animation {
     0% {
         width: 25px; 
@@ -7,4 +9,9 @@
         width: 475px; 
         opacity: 1;
     }
+}
+
+/*The animation should take 5 seconds and only happen when the page is loaded*/
+#logo {
+    animation: logoAnimation 5 forwards;
 }
