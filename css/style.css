@@ -92,6 +92,31 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
     justify-content: center;
 }
 
+/* Media Query 1: > 900px */
+@media (min-width: 900px) {
+    /* Edit the css for the header tag (all instances) and the nav_links class to match our example using flex-properties. 
+    The logo should be as far to the left as possible and the links as far to the right as possible. 
+    Use flex properties, NOT position properties.*/
+    
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* The links far right */
+    .nav_links {
+        flex-direction: row;
+    }
+    /* pricing in a row  */
+    .pricing {
+        flex-wrap: nowrap;
+    }
+    /* specify a “size” of 275px. Notice that the elements do not have the same height, but do have the same width. */
+    .card {
+        flex-basis: 275px;
+        height: auto;
+    }
+   
+}
 
 
 
