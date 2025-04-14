@@ -33,3 +33,16 @@ header {
     align-items: center;
 }
 
+/* Edit the css for the nav_links class to use flex to match our example. 
+Do not modify the list items or the links - modify the nav_links class to use flex.*/
+
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.nav_links a, .nav_links {
+    color: blue;
+}
+
