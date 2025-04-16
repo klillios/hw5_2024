@@ -147,7 +147,37 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
     .nav_links {
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: nowrap;
     }
+
+     }
+    .nav_links li {
+        padding: 0 70px;
+    }
+  
+/* Pricing class align bottom*/
+  .pricing {
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    }
+
+/* Card elements have a solid border 2px of #45ADDD and use flex-basis of 325px */
+ .card {
+        border: 2px solid #45ADDD;
+        flex-basis: 325px;
+    }
+    /* No elements of the gallery display */
+ #gallery, .gallery{
+        display: none;
+    }
+    /* Add a thumbs up after the second child of a card list */
+ .card li:nth-child(2)::after {
+        content: "\1F44D"; 
+    }
+  }
+
+
 
 
 
