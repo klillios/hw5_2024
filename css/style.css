@@ -33,7 +33,7 @@ header {
     align-items: center;
 }
 
-/*Edit the css for the nav_links class to use flex to match our example. 
+/* Edit the css for the nav_links class to use flex to match our example. 
 Do not modify the list items or the links - modify the nav_links class to use flex.*/
 
 .nav_links {
@@ -41,7 +41,6 @@ Do not modify the list items or the links - modify the nav_links class to use fl
     flex-direction: column;
     flex-wrap: nowrap;
 }
-
 
 .nav_links a, .nav_links a:visited{
     color: blue;
@@ -151,21 +150,10 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
         flex-wrap: nowrap;
     }
 
-    /*
-    .nav_links {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly; 
-    width: 100%; 
-    padding: 0; 
-    */
-
      }
     .nav_links li {
         padding: 0 70px;
     }
-
-
   
 /* Pricing class align bottom*/
   .pricing {
@@ -188,7 +176,6 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
         content: "\1F44D"; 
     }
   }
-
 
 
 
