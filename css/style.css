@@ -145,19 +145,20 @@ These elements will have a solid 10px border with a color of #50C7C7, 10px margi
         width: 100%;
         text-align: center;
     }
-   /* .nav_links {
+    .nav_links {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-    }*/
+    }
 
+    /*
     .nav_links {
     display: flex;
-    flex-direction: row; /* Change to row to have items side by side */
-    justify-content: space-evenly; /* This spaces them evenly */
-    width: 100%; /* Take full width to allow even spacing */
-    padding: 0; /* Remove default padding */
-}
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    padding: 0; 
+    */
 
      }
     .nav_links li {
